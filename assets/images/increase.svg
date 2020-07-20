@@ -1,0 +1,42 @@
+<svg id="increase" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1246.165" height="881.085" viewBox="0 0 1246.165 881.085">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d2b68;
+        stroke: #fff;
+        stroke-width: 10px;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linejoin: round;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-width: 160.08px;
+      }
+    </style>
+    <filter id="filter" x="453" y="814" width="990" height="777" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="22" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#fff" flood-opacity="0.6"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+      <feImage preserveAspectRatio="none" x="520.188" y="881.438" width="854.002" height="641.062" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODU0LjAwMiIgaGVpZ2h0PSI2NDEuMDYyIiB2aWV3Qm94PSIwIDAgODU0LjAwMiA2NDEuMDYyIj4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjEwNi40NyIgeTE9IjY0MS4wNjIiIHgyPSI3NDcuNTMyIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMC4zMDUiIHN0b3AtY29sb3I9IiNlNmI0NTgiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjM5NSIgc3RvcC1jb2xvcj0iI2ZjZDI4OCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNDcxIiBzdG9wLWNvbG9yPSIjZmZlMTljIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC41NjYiIHN0b3AtY29sb3I9IiNmMmM3NzciLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjYxOCIgc3RvcC1jb2xvcj0iI2U2YjQ1OCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNjk1IiBzdG9wLWNvbG9yPSIjZGRhODRmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSI4NTQuMDAyIiBoZWlnaHQ9IjY0MS4wNjIiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite-5" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-3" in2="blend-2"/>
+    </filter>
+  </defs>
+  <g transform="translate(-289.835 -783.835)" style="fill: #1d2b68; filter: url(#filter)">
+    <path id="increase_arrow" class="cls-1" d="M1372.5,942.03l-55.61-58.979c-3.45-3.655-8.87-.683-8.87,4.889v42.191L1210.46,933c-32.2.945-77.14,23.091-101.83,51.045L772.34,1364.73c-24.985,28.28-79.82,61.4-117.975,70.54L520.18,1467.42v55.08l134.185-35.16c55.1-14.44,122.363-57.84,155.634-96.57l325.7-379.07c17.04-19.833,52.1-37.985,74.76-39.161l97.56-5.062v43.3c0,5.58,5.42,8.1,8.87,4.17l55.61-63.538A7.338,7.338,0,0,0,1372.5,942.03Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-289.835 -783.835)" xlink:href="#increase_arrow" style="stroke: #fff; filter: none; fill: none"/>
+  <path id="path" class="cls-2" d="M444,1425c54-4,106-13,176-34s152-53,222-144,223-265,253-298,54-77,113-76,237-9,237-9" transform="translate(-289.835 -783.835)"/>
+</svg>
