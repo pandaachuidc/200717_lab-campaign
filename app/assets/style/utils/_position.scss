@@ -1,0 +1,20 @@
+.p- {
+    &relative {
+        position: relative;
+    }
+    &absolute {
+        position: absolute;
+    }
+    &zindex1{
+        z-index: 1;
+    }
+    &zindex2{
+        z-index: 2;
+    }
+    &zindex3{
+        z-index: 3;
+    }
+    &zindex4{
+        z-index: 4;
+    }
+}

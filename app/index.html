@@ -1,33 +1,58 @@
 ---
-title: Boostrap Index
+title: Index
 layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
 
-<div class="container">
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
+<div class="labIndex p-relative">
+  <div class="bg-img l-bg-no-repeat-tc l-bg-no-repeat-tc--shine">
+    <img src="assets/images/lab-campaign_cut1_bg.jpg" alt="" />
   </div>
-  <div class="alert alert-secondary" role="alert">
-    A simple secondary alert—check it out!
+  <!-- 4 point -->
+  <div class="labIndex__content1 p-absolute l-content p-zindex2 d-flex flex-wrap mx-5 mt-5 ">
+    <div class="w-50 p-relative">
+      <img
+        class="float1 p-absolute"
+        src="assets/images/cut1-step1.png"
+        alt=""
+      />
+    </div>
+    <div class="w-50 p-relative">
+      <img
+        class="float2 p-absolute"
+        src="assets/images/cut1-step2.png"
+        alt=""
+      />
+    </div>
+    <div class="w-50 p-relative">
+      <img
+        class="float3 p-absolute"
+        src="assets/images/cut1-step3.png"
+        alt=""
+      />
+    </div>
+    <div class="w-50 p-relative">
+      <img
+        class="float1 p-absolute"
+        src="assets/images/cut1-step4.png"
+        alt=""
+      />
+    </div>
   </div>
-  <div class="alert alert-success" role="alert">
-    A simple success alert—check it out!
+  <!-- next page btn -->
+  <div
+    class="labIndex__content2 p-absolute l-content p-zindex3 d-flex justify-content-center align-items-center"
+  >
+    <div class="w-50 d-flex align-items-center">
+      <a href="#" class="zoomInLightBtn"
+        ><img class="mb-3" src="assets/images/lab_logo.png" alt="" />
+        <img src="assets/images/start_btn.png" alt=""
+      /></a>
+    </div>
   </div>
-  <div class="alert alert-danger" role="alert">
-    A simple danger alert—check it out!
-  </div>
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert—check it out!
-  </div>
-  <div class="alert alert-info" role="alert">
-    A simple info alert—check it out!
-  </div>
-  <div class="alert alert-light" role="alert">
-    A simple light alert—check it out!
-  </div>
-  <div class="alert alert-dark" role="alert">
-    A simple dark alert—check it out!
+  <!-- zoom-in light -->
+  <div class="p-absolute l-content p-zindex4 zoomInLight">
+    <img src="assets/images/zoom-in_light.png" alt="" />
   </div>
 </div>

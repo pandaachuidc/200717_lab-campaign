@@ -1,0 +1,15 @@
+.labIndex {
+  overflow: hidden;
+  .zoomInLight {
+    display: none;
+    &.active {
+      opacity: 0;
+      animation: scaleImg 1.5s linear alternate;
+    }
+  }
+  .bg-img {
+    &:before {
+      background-image: url(../images/lab-campaign_cut1_bg_light.jpg);
+    }
+  }
+}

@@ -1,3 +1,28 @@
 @import "functions";
-@import "./helpers/variables";
-@import "bootstrap";
+@import "variables";
+// @import "./utils/variables";
+@import "mixins";
+
+// @import "utilities";
+@import "utilities/flex";
+// @import "utilities/text";
+@import "utilities/spacing";
+@import "utilities/display";
+@import "utilities/sizing";
+// @import "utilities/borders";
+
+// base
+@import "base/reset";
+@import "base/reboot";
+
+// utils
+@import "utils/background";
+@import "utils/display";
+@import "utils/position";
+@import "utils/animation";
+
+// pages
+@import "pages/index";
+@import "pages/step1";
+// @import "pages/step2";
+// @import "pages/step3";

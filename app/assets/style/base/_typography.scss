@@ -1,0 +1,107 @@
+$base-font-size: 1rem;
+$base-line-height: 1.5;
+$font-xxl: 50px;
+$font-xl: 44px;
+$font-l: 30px;
+$font-m: 25px;
+$font-ms: 22px;
+$font-s: 12px;
+$font-xs: 8px;
+
+.color-text {
+
+  background: -webkit-linear-gradient(
+    left,
+    $primary 0%,
+    $secondary 24%,
+    $primary 36%,
+    $secondary 46%,
+    $primary 52%,
+    $secondary 58%,
+    $secondary 67%,
+    $primary 100%
+  );
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: -webkit-text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  animation-name: colorText;
+  animation-duration: 8s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+body,
+html {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-family: "Microsoft JhengHei", "微軟正黑體", sans-serif;
+}
+
+.h2 {
+  font-size: 48px;
+  @include l-767 {
+    font-size: 38px;
+  }
+  @include l-414 {
+    font-size: 31px;
+  }
+  @include l-375 {
+    font-size: 28px;
+  }
+  @include l-360 {
+    font-size: 24px;
+  }
+}
+.h3 {
+  font-size: 32px;
+  @include l-414 {
+    font-size: 22px;
+  }
+  @include l-360 {
+    font-size: 20px;
+  }
+}
+.h4 {
+  font-size: 24px;
+}
+.h5 {
+  font-size: 25px;
+  @include l-414 {
+    font-size: 16px;
+  }
+  @include l-320 {
+    font-size: 14px;
+  }
+}
+.font-m {
+  font-size: 20px;
+  @include l-414 {
+    font-size: 18px;
+  }
+  @include l-360 {
+    font-size: 15px;
+  }
+}
+.font-s {
+  font-size: 16px;
+  @include l-360{
+    font-size: 12px;
+  }
+}
+.font-sss {
+  font-size: 12px;
+}
+
+.line-height-xlg {
+  line-height: $line-height-xlg;
+}
+.line-height-lg {
+  line-height: $line-height-lg;
+}
+.line-height-s {
+  line-height: $line-height-s;
+}

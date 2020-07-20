@@ -1,0 +1,29 @@
+.text-deco-border {
+  position: relative;
+  line-height: 1.4;
+  padding: 0.25em 1em;
+  display: inline-block;
+  top: 0;
+  &:before,
+  &:after {
+    position: absolute;
+    top: 0;
+    content: "";
+    width: 8px;
+    height: 100%;
+    display: inline-block;
+  }
+  &:before {
+    border-top: solid 1px $secondary;
+    border-left: solid 1px $secondary;
+    border-bottom: solid 1px $secondary;
+    left: 0;
+  }
+  &:after {
+    content: "";
+    border-top: solid 1px $secondary;
+    border-right: solid 1px $secondary;
+    border-bottom: solid 1px $secondary;
+    right: 0;
+  }
+}
