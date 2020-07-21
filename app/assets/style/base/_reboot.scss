@@ -12,6 +12,7 @@ input:focus, a:focus, a:active {
 
 img{
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -24,4 +25,5 @@ svg {
   margin-right: auto;
   margin-left: auto;
   transition: all 0.5s ease;
+  overflow: hidden;
 }

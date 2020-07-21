@@ -1,28 +1,34 @@
 @import "functions";
-@import "variables";
-// @import "./utils/variables";
+// @import "variables";
+@import "./utils/variables";
 @import "mixins";
 
 // @import "utilities";
 @import "utilities/flex";
-// @import "utilities/text";
+@import "utilities/text";
 @import "utilities/spacing";
 @import "utilities/display";
 @import "utilities/sizing";
+@import "utilities/embed";
 // @import "utilities/borders";
 
 // base
 @import "base/reset";
 @import "base/reboot";
+@import "base/typography";
 
 // utils
 @import "utils/background";
-@import "utils/display";
+// @import "utils/display";
 @import "utils/position";
 @import "utils/animation";
+
+// components
+@import "components/btn";
 
 // pages
 @import "pages/index";
 @import "pages/step1";
-// @import "pages/step2";
-// @import "pages/step3";
+@import "pages/step2";
+@import "pages/step3";
+@import "pages/step4";
